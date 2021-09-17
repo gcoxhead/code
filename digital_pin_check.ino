@@ -1,4 +1,6 @@
-/*LED INDICATOR SETUP*/
+/*Cycles through pins D2-D13 of the aruduino. 
+/ Connect pins D2-D13 to LED'S via a 220ohm resistor.
+*/
 void setup() {
 pinMode(2, OUTPUT);
 pinMode(3,OUTPUT);
